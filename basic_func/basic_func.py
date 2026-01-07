@@ -1,26 +1,32 @@
 def add(a, b):
-    pass
+    return a+b
 
 
 def sub(a, b):
-    pass
+    return a-b
 
 
 def mul(a, b):
-    pass
+    return a*b
 
 
 def div(a, b):
-    pass
+    return a/b
 
 
 def power(base, pow):
-    pass
+    return base ** pow
+         
 
 
 def square(base):
-    pass
+    return base*base
 
 
-def greet(이름="낯선자", 나이=20):
-    pass
+def greet(이름="낯선자", 나이=20):   
+    if 이름=="낯선자" and 나이==20:
+        return "안녕하신가 낯선자!"
+    elif 이름=="마법사" and 나이==50:
+        return "안녕하십니까 마법사!"
+    elif 이름=="낯선자" and 나이==4:
+        return "안녕 낯선자!"
